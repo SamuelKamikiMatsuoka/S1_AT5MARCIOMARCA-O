@@ -1,0 +1,156 @@
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom-color: rgb(234, 236, 243);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  height: 10%;
+  padding: 10px 0;
+}
+
+header img {
+  width: 220px;
+}
+
+.navbar-links ul {
+  display: flex;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  padding: 1rem;
+  color: red;
+  font-weight: 500;
+}
+
+.navbar-links li:hover {
+  background-color: #dbdbdb;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+/* Principal */
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+
+  height: 70%;
+}
+
+.box {
+  width: calc(50% - 10px);
+
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 40px;
+  min-height: 80px;
+}
+
+/* FOOTER */
+footer {
+  background-color:  rgba(0, 0, 0, 0.6);
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  padding: 30px 10px;
+  gap: 40px;
+
+  height: 25%;
+  text-align:justify;
+}
+
+footer h3 {
+  color: red;
+  margin-bottom: 10px;
+  margin-top: -10px;
+
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ----- MEDIA QUERIES  ----- */
+/* @media (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+} */
