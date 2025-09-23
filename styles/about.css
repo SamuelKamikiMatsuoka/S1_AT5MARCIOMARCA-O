@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-size: 20px;
-    font-family: sans-serif; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -9,25 +8,26 @@ body {
 
 main {
     flex-grow: 1;
-    display: flex; 
-    justify-content: space-between; 
-    align-items: flex-start; 
-    padding: 20px 5%; 
-    gap: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 5%;
+    gap: 20px;
 }
 
 header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 0 5%;
+    padding: 0 300px;
     box-sizing: border-box;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 header .logo {
-    padding: 10px 0;
+    padding: 10px;
     height: 80px;
 }
 
@@ -39,8 +39,6 @@ header nav {
 header a {
     padding: 10px;
     color: red;
-    text-decoration: none; 
-    font-weight: bold;
 }
 
 section {
@@ -61,7 +59,7 @@ p {
 img.main-image {
     max-width: 35%;
     border: 1px solid #ccc;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
 footer {
@@ -70,31 +68,19 @@ footer {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     box-sizing: border-box;
+
     display: flex;
     justify-content: space-around;
     gap: 20px;
 }
 
-footer a {
-    color: white; 
-    text-decoration: none;
-    display: block; 
-    padding: 5px 0;
-}
-
-footer a:hover {
-    text-decoration: underline; 
-}
-
 footer ul {
     list-style: none;
     margin: 0;
-    padding: 0; 
 }
 
 footer ul li:first-child {
     color: red;
     font-weight: bold;
     font-size: 22px;
-    margin-bottom: 10px; 
 }
