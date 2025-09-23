@@ -4,70 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SENAI</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        header {
-            background-color: #585757;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 30px;
-        }
-        header img { 
-            height: 60px;
-        }
-        nav a {
-            color: red;
-            margin-left: 20px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        main {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding: 30px;
-        }
-        section {
-            width: 60%;
-        }
-        h1 {
-            margin-top: 0;
-        }
-        img {
-            max-width: 35%;
-            border: 1px solid #ccc;
-        }
-        footer {
-            background-color: #837e7e;
-            color: white;
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        footer div {
-            width: 30%;
-        }
-        footer h3 {
-            color: red;
-            margin-bottom: 10px;
-        }
-        footer a {
-            color: white;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/syles.css">
 </head>
 <body>
-
     <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/SENAI_S%C3%A3o_Paulo_logo.png" alt="Logo SENAI">
+        <img src="images/SENAI_Sao_Paulo_logo.png" alt="Logo SENAI" class="logo">
         <nav>
             <a href="#">Home</a>
             <a href="#">Marketplace</a>
@@ -85,28 +26,28 @@
             <p>O Senai tem um forte compromisso com a inclusão social, proporcionando oportunidades de educação a jovens de diversas origens e contextos, e colaborando para a redução das desigualdades no acesso à educação de qualidade.</p>
             <p>Com sua trajetória de excelência e inovação, o Senai se consolida como uma referência na educação profissional no Brasil, preparando os profissionais de amanhã e impulsionando o crescimento da indústria nacional.</p>
         </section>
-        <img src=" https://lh3.googleusercontent.com/drive-storage/AJQWtBMoPe5b46Rg0IQQSDLlWuoxLD652o_OwWXX_GnH07yzbLRGeIptOT9F5EOqK-F1H1LYw0Tq1QxC0S_Cp6-c35AjsEc9GXtkzunR16L5NESlQs8=w1900-h911?auditContext=forDisplay" alt="Imagem SENAI">
+        <img src="images/senai.jpg" alt="Imagem SENAI" class="main-image">
     </main>
 
     <footer>
-        <div>
-            <h3>Links</h3>
-            <a href="#">Home</a>
-            <a href="#">Marketplace</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </div>
-        <div>
-            <h3>Suporte</h3>
-            <a href="#">FAQ</a>
-            <a href="#">Como Funciona</a>
-            <a href="#">Regras de Devolução</a>
-        </div>
-        <div>
-            <h3>Nosso Contato</h3>
-            <p>Telefone: (00) 1234-5678</p>
-            <p>Email: contato@exemplo.com</p>
-        </div>
+        <ul>
+            <li>Links</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+            <li>Suporte</li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Como Funciona</a></li>
+            <li><a href="#">Regras de Devolução</a></li>
+        </ul>
+        <ul>
+            <li>Nosso Contato</li>
+            <li>Telefone: (00) 1234-5678</li>
+            <li>Email: contato@exemplo.com</li>
+        </ul>
     </footer>
 
 </body>
